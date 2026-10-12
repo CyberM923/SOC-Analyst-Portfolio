@@ -1,9 +1,5 @@
 SOC Alert Triage Playbook
 
-Purpose
-
-This playbook documents a repeatable process for reviewing security alerts, validating evidence, assessing risk, and determining appropriate next steps.
-
 1. Alert Intake
 
 * Identify the alert source, timestamp, affected endpoint, user, and detection rule.
@@ -80,5 +76,3 @@ Skills Demonstrated
 * Risk-based assessment
 * Evidence documentation
 * Responsible escalation decisions
-
-This playbook is an educational reference for a home lab. Real incidents should follow the employer’s policies, escalation paths, and approved response procedures.
