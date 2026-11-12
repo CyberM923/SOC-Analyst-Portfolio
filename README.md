@@ -1,129 +1,38 @@
 # SOC-Analyst-Portfolio
-SOC Analyst home lab using Wazuh SIEM, Sysmon, Windows endpoint monitoring, custom detections, and incident investigations.
 SOC Analyst Home Lab
 
 Overview
 
+CompTIA Security+ (SY0-701) — Certified
+
 I built a Security Operations Center (SOC) home lab to practice security monitoring, endpoint investigation, event analysis, and detection engineering using free tools.
 
-This project demonstrates hands-on experience collecting Windows security telemetry, investigating processes and network connections, and creating a custom detection rule in a SIEM.
-
-Lab Architecture
-
-* SIEM: Wazuh
-* SIEM server: Ubuntu 24.04
-* Endpoint: Windows 11 ARM64
-* Endpoint telemetry: Sysmon
-* Analysis tools: Wazuh Dashboard, PowerShell, and Windows networking commands
-
-Lab Network
-
-* Ubuntu/Wazuh server: 10.10.10.10
-* Windows endpoint: 10.10.10.20
 
 Projects and Investigations
 
 ### Lab 1: Windows Endpoint Monitoring
 
+Deployed a Wazuh SIEM homelab, integrated Windows 11 endpoint monitoring with Sysmon, and created and validated a custom detection rule (ID 100002) to identify process-creation activity.
+
 **[View Lab 1 Investigation Report](investigations/Lab-1-Wazuh-SIEM-Detection.md)**
 
-* Installed and connected the Wazuh agent to the Wazuh manager.
-* Installed Sysmon to collect Windows process activity.
-* Verified that Sysmon events were visible in Wazuh.
-
-#### Custom Wazuh Detection Rule
-
-* Created a custom Wazuh rule with ID 100002.
-* Configured the rule to identify Sysmon process-creation events using a built-in Wazuh rule as its parent.
-* Validated the configuration and confirmed that a new process event triggered the custom rule.
-
-#### PowerShell Process Investigation.
-
-* Reviewed the process image, parent process, process ID, and available command-line details.
-* Observed a PowerShell process launching another PowerShell process.
-* Documented the evidence and noted that the available information did not establish malicious activity.
-
-4. #### Windows Network Connection Investigation
-
-* Used PowerShell to inspect established TCP connections.
-* Correlated a connection to the Wazuh server on TCP port 1514 with the Wazuh agent process.
-* Observed a separate transient external connection that disappeared before its owning process could be verified.
-* Documented the unknown connection as unverified rather than labeling it malicious without sufficient evidence.
-
-Skills Demonstrated
-
-* SIEM deployment and event review
-* Windows endpoint monitoring
-* Sysmon event analysis
-* Custom detection rule creation and validation
-* Process and parent-child relationship investigation
-* TCP connection and process correlation
-* PowerShell-based investigation
-* Evidence documentation and cautious conclusions
-
-Certification
-
-CompTIA Security+ (SY0-701) — Certified
-
-Disclaimer
-
-This project is for educational purposes and uses a controlled home lab. Investigation conclusions are based only on the evidence collected during each exercise.
-
-Lab Evidence
-
-Custom Wazuh Process-Creation Detection
-
-This screenshot below shows my custom Wazuh rule (100002) triggered on a Sysmon process-creation event during controlled lab testing.
-
-![Wazuh custom detection](./detections/wazuh-detection.jpg)
-
-
-## Completed SOC Investigations
 
 ### Lab 2: Jira Incident Investigation (Case OPS-1)
 
-Investigated PowerShell activity using Wazuh SIEM and Sysmon Event ID 1.
-
-Analyzed the command line, parent process, and Windows security assessment activity.
-
-Documented the investigation and completed the incident workflow in Jira Service Management.
-
-**Skills:** Alert triage, log analysis, PowerShell investigation, incident documentation.
+Investigated PowerShell process activity using Wazuh and Sysmon, analyzed supporting telemetry, and documented the findings in Jira Service Management.
 
 [View Full Report](investigations/Jira-Incident-investigation.md)
 
 ## Lab 3: Wireshark Network Traffic Investigation
 
-Analyzed DNS queries, TCP retransmissions, and connection resets using Wireshark.
 
-**Skills Demonstrated:**
-- DNS traffic analysis
-- TCP packet investigation
-- Network troubleshooting
-- Security alert triage
-- Incident documentation
+Analyzed DNS queries, TCP retransmissions, and connection resets using Wireshark to investigate network behavior and identify potential connectivity issues.
 
 [View Wireshark Investigation](investigations/Wireshark-DNS-TCP-Investigation.md)
 
-
 ## Lab 4: Windows Incident Response
 
-Investigated 22 failed Windows login events (Event ID 4625) and correlated successful authentication events (Event ID 4624) using Windows Event Viewer and PowerShell.
-
-### Key Findings
-- Identified failed interactive logins targeting `vboxuser`.
-- Correlated a failed login with a successful login five seconds later.
-- Investigated Windows account privileges and authentication activity.
-- Identified account lockout and password policy weaknesses.
-- Documented findings and security-hardening recommendations.
-
-### Skills Demonstrated
-- Windows Security Log Analysis
-- Incident Response and Alert Triage
-- PowerShell Investigation
-- Authentication Event Correlation
-- Security Policy Assessment
-- Incident Documentation
+Investigated 22 failed Windows authentication events (Event ID 4625), correlated a subsequent successful login (Event ID 4624), and assessed account security using Windows Event Viewer and PowerShell.
 
 **[View Full Windows Incident Response Investigation](investigations/Windows-Failed-Login-Investigations.md)**
 
@@ -131,10 +40,9 @@ Investigated 22 failed Windows login events (Event ID 4625) and correlated succe
 
 [View MITRE ATT&CK Threat Hunting Investigation](investigations/MITRE-ATTACK-Threat-Hunting.md)
 
-Investigated PowerShell execution and failed Windows authentication events using Wazuh SIEM and Sysmon.
 
-- Analyzed PowerShell process execution and parent-child relationships.
-- Mapped PowerShell activity to MITRE ATT&CK T1059.001.
-- Investigated Windows authentication failures and associated event details.
-- Documented findings with screenshots and supporting evidence.
-- Distinguished potentially suspicious activity from likely benign behavior.
+Conducted threat hunting using Wazuh and Sysmon to investigate PowerShell execution and Windows authentication activity. Mapped observed behaviors to MITRE ATT&CK techniques T1059.001 and T1110.
+
+Disclaimer
+
+This project is for educational purposes and uses a controlled home lab. Investigation conclusions are based only on the evidence collected during each exercise.
