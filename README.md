@@ -25,6 +25,8 @@ Projects and Investigations
 
 ### Lab 1: Windows Endpoint Monitoring
 
+**[View Lab 1 Investigation Report](investigations/Lab-1-Wazuh-SIEM-Detection.md)**
+
 * Installed and connected the Wazuh agent to the Wazuh manager.
 * Installed Sysmon to collect Windows process activity.
 * Verified that Sysmon events were visible in Wazuh.
