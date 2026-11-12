@@ -108,3 +108,7 @@ Successfully captured and analyzed DNS and TCP traffic using Wireshark.
 Identified DNS resolution activity and investigated TCP retransmissions and connection resets.
 
 Documented findings without classifying normal or inconclusive network behavior as malicious.
+
+## TCP Investigation Screenshot
+
+![Wireshark TCP Investigation](Wireshark-TCP-Investigation.png)
