@@ -111,3 +111,25 @@ Analyzed DNS queries, TCP retransmissions, and connection resets using Wireshark
 - Incident documentation
 
 [View Wireshark Investigation](investigations/Wireshark-DNS-TCP-Investigation.md)
+
+
+## Lab 4: Windows Incident Response
+
+Investigated 22 failed Windows login events (Event ID 4625) and correlated successful authentication events (Event ID 4624) using Windows Event Viewer and PowerShell.
+
+### Key Findings
+- Identified failed interactive logins targeting `vboxuser`.
+- Correlated a failed login with a successful login five seconds later.
+- Investigated Windows account privileges and authentication activity.
+- Identified account lockout and password policy weaknesses.
+- Documented findings and security-hardening recommendations.
+
+### Skills Demonstrated
+- Windows Security Log Analysis
+- Incident Response and Alert Triage
+- PowerShell Investigation
+- Authentication Event Correlation
+- Security Policy Assessment
+- Incident Documentation
+
+**[View Full Windows Incident Response Investigation](investigations/Windows-Failed-Login-Investigations.md)**
