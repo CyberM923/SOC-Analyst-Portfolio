@@ -112,3 +112,8 @@ Documented findings without classifying normal or inconclusive network behavior 
 ## TCP Investigation Screenshot
 
 ![Wireshark TCP Investigation](Wireshark-TCP-Investigation..png)
+
+
+## DNS Investigation Screenshot
+
+![Wireshark DNS Investigation](Wireshark-DNS-Investigation.png)
