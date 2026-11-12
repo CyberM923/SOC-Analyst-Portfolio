@@ -133,3 +133,15 @@ Investigated 22 failed Windows login events (Event ID 4625) and correlated succe
 - Incident Documentation
 
 **[View Full Windows Incident Response Investigation](investigations/Windows-Failed-Login-Investigations.md)**
+
+## Lab 5: MITRE ATT&CK Threat Hunting
+
+[View MITRE ATT&CK Threat Hunting Investigation](investigations/MITRE-ATTACK-Threat-Hunting.md)
+
+Investigated PowerShell execution and failed Windows authentication events using Wazuh SIEM and Sysmon.
+
+- Analyzed PowerShell process execution and parent-child relationships.
+- Mapped PowerShell activity to MITRE ATT&CK T1059.001.
+- Investigated Windows authentication failures and associated event details.
+- Documented findings with screenshots and supporting evidence.
+- Distinguished potentially suspicious activity from likely benign behavior.
