@@ -48,3 +48,6 @@ Classified the investigated activity as likely benign and completed the Jira inc
 
 ## Environment
 This investigation was performed in a personal cybersecurity homelab.
+## Jira Investigation Evidence
+
+![Completed Jira OPS-1 Investigation](Jira-OPS-1.png)
