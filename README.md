@@ -1,4 +1,4 @@
-# SOC-analyst-home-lab
+# SOC-Analyst-Home-Lab
 SOC Analyst home lab using Wazuh SIEM, Sysmon, Windows endpoint monitoring, custom detections, and incident investigations.
 SOC Analyst Home Lab
 
