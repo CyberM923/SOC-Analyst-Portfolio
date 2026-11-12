@@ -97,3 +97,17 @@ Documented the investigation and completed the incident workflow in Jira Service
 **Skills:** Alert triage, log analysis, PowerShell investigation, incident documentation.
 
 [View Full Report](investigations/Jira-Incident-investigation.md)
+
+
+## Wireshark Network Traffic Investigation
+
+Analyzed DNS queries, TCP retransmissions, and connection resets using Wireshark.
+
+**Skills Demonstrated:**
+- DNS traffic analysis
+- TCP packet investigation
+- Network troubleshooting
+- Security alert triage
+- Incident documentation
+
+[View Wireshark Investigation](investigations/Wireshark-DNS-TCP-Investigation.md)
