@@ -23,26 +23,25 @@ Lab Network
 
 Projects and Investigations
 
-1. Windows Endpoint Monitoring
+### Lab 1: Windows Endpoint Monitoring
 
 * Installed and connected the Wazuh agent to the Wazuh manager.
 * Installed Sysmon to collect Windows process activity.
 * Verified that Sysmon events were visible in Wazuh.
 
-2. Custom Detection Rule
+#### Custom Wazuh Detection Rule
 
 * Created a custom Wazuh rule with ID 100002.
 * Configured the rule to identify Sysmon process-creation events using a built-in Wazuh rule as its parent.
 * Validated the configuration and confirmed that a new process event triggered the custom rule.
 
-3. PowerShell Process Investigation
+#### PowerShell Process Investigation.
 
-* Examined process-creation telemetry for powershell.exe.
 * Reviewed the process image, parent process, process ID, and available command-line details.
 * Observed a PowerShell process launching another PowerShell process.
 * Documented the evidence and noted that the available information did not establish malicious activity.
 
-4. Windows Network Connection Investigation
+4. #### Windows Network Connection Investigation
 
 * Used PowerShell to inspect established TCP connections.
 * Correlated a connection to the Wazuh server on TCP port 1514 with the Wazuh agent process.
@@ -69,7 +68,7 @@ Future Improvements
 
 Certification
 
-CompTIA Security+ (SY0-701) — Passed
+CompTIA Security+ (SY0-701) — Certified
 
 Disclaimer
 
@@ -86,7 +85,7 @@ This screenshot below shows my custom Wazuh rule (100002) triggered on a Sysmon 
 
 ## Completed SOC Investigations
 
-### Case OPS-1: Suspicious PowerShell Execution
+### Lab 2: Jira Incident Investigation (Case OPS-1)
 
 Investigated PowerShell activity using Wazuh SIEM and Sysmon Event ID 1.
 
@@ -98,8 +97,7 @@ Documented the investigation and completed the incident workflow in Jira Service
 
 [View Full Report](investigations/Jira-Incident-investigation.md)
 
-
-## Wireshark Network Traffic Investigation
+## Lab 3: Wireshark Network Traffic Investigation
 
 Analyzed DNS queries, TCP retransmissions, and connection resets using Wireshark.
 
