@@ -59,13 +59,6 @@ Skills Demonstrated
 * PowerShell-based investigation
 * Evidence documentation and cautious conclusions
 
-Future Improvements
-
-* Add screenshots of the Wazuh dashboard and custom detection.
-* Create additional detection rules and test them with safe lab activity.
-* Document further investigations with timelines, evidence, findings, and recommendations.
-* Expand the lab with additional log sources and alert triage exercises.
-
 Certification
 
 CompTIA Security+ (SY0-701) — Certified
