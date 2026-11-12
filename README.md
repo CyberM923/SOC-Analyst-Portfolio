@@ -82,3 +82,18 @@ Custom Wazuh Process-Creation Detection
 This screenshot below shows my custom Wazuh rule (100002) triggered on a Sysmon process-creation event during controlled lab testing.
 
 ![Wazuh custom detection](./detections/wazuh-detection.jpg)
+
+
+## Completed SOC Investigations
+
+### Case OPS-1: Suspicious PowerShell Execution
+
+Investigated PowerShell activity using Wazuh SIEM and Sysmon Event ID 1.
+
+Analyzed the command line, parent process, and Windows security assessment activity.
+
+Documented the investigation and completed the incident workflow in Jira Service Management.
+
+**Skills:** Alert triage, log analysis, PowerShell investigation, incident documentation.
+
+[View Full Investigation Report](Jira-Incident-investigation.md)
