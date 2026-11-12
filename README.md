@@ -96,4 +96,4 @@ Documented the investigation and completed the incident workflow in Jira Service
 
 **Skills:** Alert triage, log analysis, PowerShell investigation, incident documentation.
 
-[View Full Investigation Report](Jira-Incident-investigation.md)
+[View Full Report](investigations/Jira-Incident-investigation)
