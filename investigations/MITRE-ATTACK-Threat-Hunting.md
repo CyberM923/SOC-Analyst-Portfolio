@@ -54,7 +54,7 @@ The observed PowerShell command examined Windows security policy settings using 
 
 ### PowerShell Investigation Screenshot
 
-![MITRE PowerShell Investigation](MITRE-PowerShell.png)
+![PowerShell Investigation Evidence](MITRE-Powershell.png)
 
 ### Findings
 
