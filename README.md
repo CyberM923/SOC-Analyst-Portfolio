@@ -62,7 +62,8 @@ Conducted a simulated security investigation using Kusto Query Language (KQL) in
 
 **Investigation Report:**
 
-[KQL Authentication Investigation](investigations/KQL-Authentication-Investigation/README.md)
+[KQL Authentication Investigation](investigations/KQL-Authentication-Investigations/README.md)
+
 
 
 Disclaimer
