@@ -1,14 +1,28 @@
-# SOC-Analyst-Portfolio
-SOC Analyst Home Lab
+# SOC Analyst | Cybersecurity Portfolio
 
-Overview
+I'm an aspiring SOC Analyst with a **CompTIA Security+ certification** and a **Google Cybersecurity Professional Certificate**, complemented by hands-on experience in security monitoring, threat detection, incident response, and network traffic analysis.
 
-CompTIA Security+ (SY0-701) — Certified
+Through eight practical cybersecurity labs, I've developed experience investigating security alerts, analyzing logs, identifying suspicious activity, and documenting security incidents using industry-standard tools.
 
-I built a Security Operations Center (SOC) home lab to practice security monitoring, endpoint investigation, event analysis, and detection engineering using free tools.
+## Certifications
+- CompTIA Security+
+- Google Cybersecurity Professional Certificate — Coursera
 
+## Core Technical Skills
+- **SIEM & Endpoint Security:** Wazuh, Sysmon, alert monitoring, detection rule analysis
+- **Threat Detection & Hunting:** MITRE ATT&CK, IOC investigation, security event correlation
+- **Incident Response:** Windows event log analysis, alert triage, incident classification, SOC documentation
+- **Network Security:** Wireshark, Zeek, Suricata, packet analysis
+- **Security Analytics:** Kusto Query Language (KQL), authentication log analysis
+- **Ticketing & Reporting:** Jira, incident reports, SOC shift handoffs
+- **Operating Systems:** Windows 11, Ubuntu Linux
+- **Virtualization:** Oracle VirtualBox
 
-Projects and Investigations
+## Career Goal
+
+Seeking an entry-level remote SOC Analyst opportunity where I can apply my technical skills, cybersecurity certifications, and practical security investigation experience.
+
+## Projects and Investigations
 
 ### Lab 1: Windows Endpoint Monitoring
 
@@ -73,6 +87,9 @@ Conducted a simulated security investigation using Kusto Query Language (KQL) in
 Investigated high-severity Wazuh alerts, analyzed Sysmon process activity, identified likely false positives, and documented findings using SOC incident response procedures.
 
 [View Lab 8 Investigation](investigations/SOC-Shift-Simulation/README.md)
+
+
+
 
 
 
