@@ -43,6 +43,17 @@ Investigated 22 failed Windows authentication events (Event ID 4625), correlated
 
 Conducted threat hunting using Wazuh and Sysmon to investigate PowerShell execution and Windows authentication activity. Mapped observed behaviors to MITRE ATT&CK techniques T1059.001 and T1110.
 
+
+### Lab 6: Suricata IDS + Zeek Network Monitoring
+
+Deployed Suricata IDS and Zeek 9.0.1 in a virtual cybersecurity homelab to monitor network traffic, create custom detection rules, and investigate network activity.
+
+
+**Investigation Reports:**
+
+- [Suricata IDS Investigation](investigations/Suricata-IDS/Suricata-IDS-Investigation.md)
+- [Zeek Network Monitoring Investigation](investigations/Zeek-Network-Monitoring/Zeek-Network-Investigation.md)
+
 Disclaimer
 
 This project is for educational purposes and uses a controlled home lab. Investigation conclusions are based only on the evidence collected during each exercise.
