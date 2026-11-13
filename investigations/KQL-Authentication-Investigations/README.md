@@ -18,6 +18,15 @@ A simulated administrator account experienced three failed login attempts follow
 - **Successful Logins:** 1 (Event ID 4624)
 - **Date:** November 13, 2026
 
+## Investigation Screenshots
+
+### Failed Login Detection
+![KQL Failed Login Detection](screenshots/KQL-Failed-Login_Detection.png)
+
+### Authentication Timeline
+![KQL Authentication Timeline](screenshots/KQL-Authentication-Timeline.png)
+
+
 ## Investigation Process
 1. Created simulated Windows authentication events using KQL `datatable`.
 2. Developed a query to identify accounts with three or more failed login attempts.
