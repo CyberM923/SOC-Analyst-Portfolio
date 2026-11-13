@@ -36,6 +36,7 @@ Investigated 22 failed Windows authentication events (Event ID 4625), correlated
 
 **[View Full Windows Incident Response Investigation](investigations/Windows-Failed-Login-Investigations.md)**
 
+
 ## Lab 5: MITRE ATT&CK Threat Hunting
 
 [View MITRE ATT&CK Threat Hunting Investigation](investigations/MITRE-ATTACK-Threat-Hunting.md)
@@ -46,10 +47,12 @@ Conducted threat hunting using Wazuh and Sysmon to investigate PowerShell execut
 
 ### Lab 6: Suricata IDS + Zeek Network Monitoring
 
+
 Deployed Suricata IDS and Zeek 9.0.1 in a virtual cybersecurity homelab to monitor network traffic, create custom detection rules, and investigate network activity.
 
 
 **Investigation Reports:**
+
 
 - [Suricata IDS Investigation](investigations/Suricata-IDS/Suricata-IDS-Investigation.md)
 - [Zeek Network Monitoring Investigation](investigations/Zeek-Network-Monitoring/Zeek-Network-Investigation.md)
@@ -63,6 +66,15 @@ Conducted a simulated security investigation using Kusto Query Language (KQL) in
 **Investigation Report:**
 
 [KQL Authentication Investigation](investigations/KQL-Authentication-Investigations/README.md)
+
+
+### Lab 8: SOC Shift Simulation
+
+Investigated high-severity Wazuh alerts, analyzed Sysmon process activity, identified likely false positives, and documented findings using SOC incident response procedures.
+
+[View Lab 8 Investigation](investigations/SOC-Shift-Simulation/README.md)
+
+
 
 
 
