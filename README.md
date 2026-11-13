@@ -54,6 +54,17 @@ Deployed Suricata IDS and Zeek 9.0.1 in a virtual cybersecurity homelab to monit
 - [Suricata IDS Investigation](investigations/Suricata-IDS/Suricata-IDS-Investigation.md)
 - [Zeek Network Monitoring Investigation](investigations/Zeek-Network-Monitoring/Zeek-Network-Investigation.md)
 
+
+### Lab 7: KQL Authentication Investigation
+
+Conducted a simulated security investigation using Kusto Query Language (KQL) in Microsoft's Azure Logs demo environment.
+
+
+**Investigation Report:**
+
+[KQL Authentication Investigation](investigations/KQL-Authentication-Investigation/README.md)
+
+
 Disclaimer
 
 This project is for educational purposes and uses a controlled home lab. Investigation conclusions are based only on the evidence collected during each exercise.
