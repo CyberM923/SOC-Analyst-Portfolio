@@ -9,18 +9,21 @@ Through eight practical cybersecurity labs, I've developed experience investigat
 - Google Cybersecurity Professional Certificate — Coursera
 
 ## Core Technical Skills
-- **SIEM & Endpoint Security:** Wazuh, Sysmon, alert monitoring, detection rule analysis
-- **Threat Detection & Hunting:** MITRE ATT&CK, IOC investigation, security event correlation
-- **Incident Response:** Windows event log analysis, alert triage, incident classification, SOC documentation
-- **Network Security:** Wireshark, Zeek, Suricata, packet analysis
-- **Security Analytics:** Kusto Query Language (KQL), authentication log analysis
-- **Ticketing & Reporting:** Jira, incident reports, SOC shift handoffs
-- **Operating Systems:** Windows 11, Ubuntu Linux
-- **Virtualization:** Oracle VirtualBox
+
+- **SIEM & Endpoint Security:** Wazuh, Sysmon, SIEM monitoring, security alert triage, custom Wazuh detection rules, detection rule testing and tuning
+- **Threat Detection & Hunting:** MITRE ATT&CK, IOC investigation, PowerShell investigation, suspicious process analysis, security event correlation
+- **Incident Response:** Windows Event Viewer, Windows authentication analysis, failed and successful login investigations, incident classification, false-positive analysis, escalation procedures
+- **Network Security:** Wireshark, Zeek, Suricata IDS, DNS analysis, TCP traffic analysis, packet inspection, network intrusion detection
+- **Security Analytics:** Kusto Query Language (KQL), Microsoft Azure Logs Demo, authentication log analysis, security event filtering
+- **Ticketing & Reporting:** Jira Service Management, incident documentation, investigation reports, SOC shift handoffs
+- **Operating Systems:** Windows 11, Ubuntu Linux, Linux command line, PowerShell
+- **Virtualization & Homelabs:** Oracle VirtualBox, virtual machine configuration, Windows and Linux security lab environments
+
 
 ## Career Goal
 
 Seeking an entry-level remote SOC Analyst opportunity where I can apply my technical skills, cybersecurity certifications, and practical security investigation experience.
+
 
 ## Projects and Investigations
 
